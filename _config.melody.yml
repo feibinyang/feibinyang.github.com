@@ -17,10 +17,10 @@
 
 # Main menu navigation
 menu:
-  # Home: /
-  # Archives: /archives
-  # Tags: /tags
-  # Categories: /categories
+  主页: /
+  目录: /archives
+  标签: /tags
+  分类: /categories
   #XXX: /xxx
 
 # Favicon
@@ -51,9 +51,10 @@ highlight_theme: default
 # see the icon_name in fontawesome website.
 # And you need to add the `fa` or `fab` prefix by your self.
 # ---------------
-#social:
-#icon_name fa: url
-#icon_name fab: url
+social:
+  github fa: https://github.com/feibinyang
+  weibo fa: https://weibo.com/u/2053729515/home?wvr=5
+  zhihu fa: https://www.zhihu.com/people/fei_fei
 
 # Algolia search
 # ---------------
@@ -128,9 +129,10 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar:
+avatar: /images/avatar.jpeg
 
-top_img: true # false or url of img
+# top_img: true # false or url of img
+top_img: /images/banner.jpg
 
 top_img_height: 60 # best range: 60 - 100
 
@@ -145,17 +147,19 @@ wordcount:
 
 toc:
   enable: true
-  # number: true
+  number: true
 
 post_copyright:
   enable: true
-  license: CC BY-NC-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  license: MIT
+  license_url: https://en.wikipedia.org/wiki/MIT_License
+  #license: CC BY-NC-SA 4.0
+  #license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/theme-config.html#auto-excerpt
-# auto_excerpt:
-#   enable: false
-#   length: 150
+auto_excerpt:
+  enable: true
+  length: 150
 
 # slide
 # For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
@@ -182,10 +186,10 @@ slide:
   autoPlayMedia: false
   backgroundTransition: 'fade'
 
-# QR_code:
-# - itemlist:
-#     img:
-#     text:
+QR_code:
+- itemlist:
+    img: /images/zfb.jpg
+    text: 支付宝打赏
 
 # adv:
 # enable: false
@@ -255,9 +259,9 @@ disqus:
 
 # Footer Settings
 # ---------------
-since: 2013
+since: 2016
 
-# footer_custom_text: put custom text directly or put hitokoto to fetch random texts
+footer_custom_text: hitokoto
 
 ICP:
   enable: false
@@ -296,22 +300,22 @@ canvas_ribbon:
 # Name: url
 
 # Follow Me Button
-# follow:
-#   enable: true
-#   url: ''
-#   text: ''
+follow:
+  enable: true
+  url: 'https://github.com/feibinyang/'
+  text: '关注我'
 
 # controls the sidebar showing or hidden in different pages
-sidebar_display: post # all/index/post/index-none/post-none/hidden
+sidebar_display: hidden # all/index/post/index-none/post-none/hidden
 
 # Ads
 # ---------------
 # Google Adsense
-google_adsense:
-  enable: false
-  js: //pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-...........
-  enable_page_level_ads: true
+# google_adsense:
+#   enable: false
+#   js: //pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+#   client: ca-pub-...........
+#   enable_page_level_ads: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
