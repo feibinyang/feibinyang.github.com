@@ -31,7 +31,7 @@ favicon: /melody-favicon.ico
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json
   # If you don't want to trouble, just ignore the following things
   # See https://realfavicongenerator.net/
@@ -93,7 +93,7 @@ fireworks: false
 # ---------------
 baidu_analytics:
 
-google_analytics:
+google_analytics: G-M4S0ERX292
 
 # Tencent_analytics ID
 tencent_analytics:
@@ -143,7 +143,7 @@ post_meta:
 
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/additional-package-support.html#word-counting
 wordcount:
-  enable: false
+  enable: true
 
 toc:
   enable: true
@@ -210,7 +210,7 @@ addThis:
 disqus:
   enable: false
   #shortname:
-  #count:
+  count: true
 
 # laibili:
 # enable: false
@@ -303,7 +303,7 @@ canvas_ribbon:
 follow:
   enable: true
   url: 'https://github.com/feibinyang/'
-  text: '关注我'
+  text: '关注作者'
 
 # controls the sidebar showing or hidden in different pages
 sidebar_display: hidden # all/index/post/index-none/post-none/hidden
